@@ -1,0 +1,23 @@
+{
+  "name": "raketech-node",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/itsdenispavlovic/raketech-node.git"
+  },
+  "author": "Denis Pavlovic",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/itsdenispavlovic/raketech-node/issues"
+  },
+  "homepage": "https://github.com/itsdenispavlovic/raketech-node#readme",
+  "dependencies": {
+    "axios": "^0.26.1",
+    "express": "^4.17.3"
+  }
+}
