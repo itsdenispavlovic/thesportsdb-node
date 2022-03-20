@@ -13,9 +13,9 @@ app.get('/get-last-events', (req, res) => {
     myApp
         .get(`/eventspastleague.php?id=${ENG_PREMIER_LEAGUE_ID}`)
         .then(response => {
-            console.log(response);
+            res.send({
+                data: response.data
+            });
         })
-        .catch(error => {
-            console.log(error);
-        });
+        .catch(e => res.status(400).send({ error: e }));
 });
